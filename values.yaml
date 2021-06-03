@@ -1,4 +1,4 @@
-solr-operator:
+solr:
   zookeeper-operator:
     install: false
     use: true
