@@ -1,0 +1,6 @@
+solr-operator:
+  zookeeper-operator:
+    install: false
+    use: true
+    crd:
+      create: false

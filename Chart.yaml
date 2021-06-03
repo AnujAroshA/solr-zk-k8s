@@ -1,0 +1,15 @@
+apiVersion: v2
+name: solr-zookeeper
+description: A Helm chart for Kubernetes
+type: application
+version: 0.1.0
+appVersion: "1.16.0"
+
+dependencies:
+  - name: zookeeper-operator
+    version: 0.2.9
+    repository: https://charts.pravega.io
+    condition: zookeeper-operator.install
+  - name: solr-operator
+    version: 0.3.0
+    repository: https://solr.apache.org/charts

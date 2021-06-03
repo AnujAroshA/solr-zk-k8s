@@ -1,0 +1,9 @@
+dependencies:
+- name: zookeeper-operator
+  repository: https://charts.pravega.io
+  version: 0.2.9
+- name: solr-operator
+  repository: https://solr.apache.org/charts
+  version: 0.3.0
+digest: sha256:8688d125cc0b772a8541fab8c141444ff940d530d0ae0c20479a0bcccd733928
+generated: "2021-06-03T09:13:08.52865+05:30"
