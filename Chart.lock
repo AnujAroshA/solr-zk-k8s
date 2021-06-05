@@ -1,0 +1,9 @@
+dependencies:
+- name: zookeeper
+  repository: https://artifacts.creativesoftware.com/artifactory/helm/
+  version: 0.1.0
+- name: solr
+  repository: https://artifacts.creativesoftware.com/artifactory/helm/
+  version: 0.1.1
+digest: sha256:a8959235df566d0f96085e28d211f7da2bef5ff6346b82906798eefbd28011a2
+generated: "2021-06-05T09:24:30.181397+05:30"

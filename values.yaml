@@ -1,6 +1,11 @@
 solr:
-  zookeeper-operator:
-    install: false
-    use: true
-    crd:
-      create: false
+  solr-operator:
+    zookeeper-operator:
+      install: false
+      use: true
+      crd:
+        create: false
+
+    serviceAccount:
+      create: true
+      name: my-solr

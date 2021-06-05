@@ -8,7 +8,7 @@ appVersion: "1.16.0"
 dependencies:
   - name: zookeeper
     version: 0.1.0
-    repository: "@private_repo"
+    repository: https://artifacts.creativesoftware.com/artifactory/helm/
   - name: solr
-    version: 0.1.0
-    repository: "@private_repo"
+    version: 0.1.1
+    repository: https://artifacts.creativesoftware.com/artifactory/helm/
